@@ -2,11 +2,11 @@
 int n=0,m=0,re[11][2]={},ans1[101][3]={},ans2[101][3]={},tim=0,peo=0;
 int noww=0,too[11]={};
 int floo1[11]={},floo2[11]={};
-int fx=1;//1为上，-1为下
+int fx=1;//1脦陋脡脧拢卢-1脦陋脧脗
 int maxx(int a,int b); 
 int main(){
-	//freopen("dian2.in","r",stdin);
-	//freopen("dian2.out","w",stdout);
+	freopen("dian2.in","r",stdin);
+	freopen("dian2.out","w",stdout);
 	scanf("%d %d",&n,&m);
 	noww=n;
 	int upp=0,doo=0,i=0;
@@ -49,8 +49,8 @@ int main(){
 		printf("%d %d %d\n",anss,tim,peo);
 		mov=anss;
 	}
-	//fclose(stdin);
-	//fclose(stdout);
+	fclose(stdin);
+	fclose(stdout);
 	return 0;
 }
 int maxx(int a,int b){
